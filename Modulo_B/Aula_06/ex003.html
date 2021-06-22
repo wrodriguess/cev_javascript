@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6 - Exercicio 2</title>
+</head>
+<body>
+    <h1 id="resultado"></h1>
+    <script>
+        /*
+            CONVERTER STRING PARA NÚMERO
+            ============================
+            Number.parseInt(VARIAVEL) ou parseInt(VARIAVEL)
+            Number.parseFloat(VARIAVEL) ou parseFloat(VARIAVEL)
+            Number(VARIAVEL) //Funciona tanto para int quanto float
+
+            CONVERTER NÚMERO PARA STRING
+            ============================
+            String(VARIAVEL)
+            .toString() //Ex: VARIAVEL.toString()
+
+            VARIAVEL.length //Retorna o tamanho da string
+            VARIAVEL.toUpperCase() //Exibe o conteudo em letras maiuscula (não altera o valor na variavel)
+            VARIAVEL.toLowerCase() //Exibe o conteudo da variavel em letras minusculas
+        */
+
+        let n1 = window.prompt('Digite um número: ')
+        let n2 = window.prompt('Digite outro número: ')
+        let resultado = parseInt(n1) + parseInt(n2) //parseInt (ou Number(VARIAVEL)) converte a string enviada pelo usuário em inteiro
+        document.getElementById('resultado').innerHTML = `A soma entre ${n1} e ${n2} é: ${resultado}`
+    </script>
+</body>
+</html>

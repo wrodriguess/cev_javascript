@@ -1,0 +1,39 @@
+OPERADORES RELACIONAIS
+#######################
+>  : Maior (Ex: 5 > 2 = true)
+<  : Menor (Ex: 7 < 4 = false)
+>= : Maior igual (Ex: 8 >= 8 = true)
+<= : Menor igual (Ex: 9 <= 7 = false)
+== : Igual (Ex: 5 == 5 = true)
+!= : Diferente (Ex: 4 != 4 = false)
+
+IDENTIDADE
+############
+5 == 5 = true
+5 == '5' = true //Sim pq javascript não testa tipo
+5 === '5' = false //Aqui o javascript irá comparar o valor e tipo
+5 === 5 = true
+
+OPERADORES LÓGICOS
+######################
+!  : Negação
+    !true = false
+    !false = true
+
+&& : E (Conjunção) //Ambos precisam ser true para o resultado ser true
+    true && true = true
+    true && false = false
+    false && true = false
+    false && false = false
+
+|| : OU (Disjunção) //Apenas um precisa ser true para o resultado ser true
+    true || true = true
+    true || false = true
+    false || true = true
+    false || false = false
+
+
+OPERADOR TERNÁRIO
+######################
+(CONDIÇÃO) ? CASO_TRUE : CASO_FALSE
+media >= 7 ? "Aprovado" : "Reprovado" //Se nota maior ou igual a 7 irá imprimi aprovado, senão irá imprimir reprovado

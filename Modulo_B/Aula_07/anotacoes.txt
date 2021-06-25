@@ -1,0 +1,39 @@
+OPERADORES ARITMÉTICOS
+########################
++  : Soma (Ex: 5 + 2 = 7)
+-  : Subtração (Ex: 5 - 2 = 3)
+*  : Multiplicação (Ex: 5 * 2 = 10)
+/  : Divisão (Ex: 5 / 2 = 2.5)
+%  : Resto da divisão (Ex: 5 % 2 = 1)
+** : Potencia (Ex: 5 ** 2 = 25)
+
+ORDEM DE PRECEDENCIA
+######################
+() : Parenteses
+** : Potencia
+* : Multiplicação, / : Divisão, % : Resto da divisão
++ : Soma, - : Subtração
+
+
+AUTO ATRIBUIÇÕES
+##################
++= (Ex: n += 3 ou n = n + 3)
+-= (Ex: n -= 5 ou n = n - 5)
+*= (Ex: n *= 4 ou n = n * 4)
+/= (Ex: n /= 2 ou n = n / 2)
+**=  (Ex: n **= 2 ou n = n ** 2)
+%= (Ex: n %= 5 ou n = n % 5)
+
+
+INCREMENTO
+############
+++
+-- 
+
+Pré incromento - Incrementa (ou subtrai) 1 antes de utilizar a variavel
+++VARIAVEL
+--VARIAVEL
+
+Pós incremento - Primeiro utiliza a variavel, depois incrementa (ou subtrai) 1
+VARIAVEL++
+VARIAVEL--

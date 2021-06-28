@@ -1,0 +1,22 @@
+EVENTOS DOM
+##################
+
+EVENTOS DE MOUSE
+==================
+mouseenter
+mousemove
+mousedown
+mouseup
+click (onclick)
+mouseout
+
+
+ADD EVENT LISTENER 
+====================
+Alternativa para substituir o onclick, onmouseenter e onmouseout no html
+
+//Pegue o objeto HTML
+var area = window.document.getElementById('area')
+
+//objetoHtml.addEventListener('ACAO (click, mouseenter, mouseout)', funcao criada no javascript)
+area.addEventListener('click', clicar)

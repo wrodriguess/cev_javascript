@@ -1,0 +1,7 @@
+MANEIRAS DE ACESSAR UM ELEMENTO UTILIZANDO DOM
+################################################
+por Marca - getElementsByTagName()
+por ID - getElementById()
+por Nome - getElementsByName()
+por Classe - getElementsByClassName()
+por Seletor - querySelector() ou querySelectorAll()

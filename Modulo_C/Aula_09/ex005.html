@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros Passos com o DOM</title>
+    <style>
+        body{
+            background-color: rgb(68, 125, 199);
+            color: #fff;
+            font: normal 18px arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p name="resultado">Aqui o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong>em Javascript.</p>
+    <div id="msg">Clique aqui</div>
+
+    <script>
+        //window.document.write('Olá Mundo!'); //Imprime na tela Olá Mundo
+        //window.document.write(window.document.charset); //Retorna o charset da páigna (utf8)
+        //window.document.write(window.navigator.appName); //Retorna o navegador utilizado
+        //window.document.write(window.document.URL); //Retorna a URL que o usuário está acessando
+
+        //getElementsByTagName()
+        /*var corpo = window.document.body;
+        corpo.style.background = 'black'
+        var p1 = window.document.getElementsByTagName('p')[0]; //Irá pegar apenas o primeiro os elementos <p>
+        window.document.write('1º < P > Está escrito assim: ' + p1.innerText);
+        p1.style.color = 'blue';
+
+        var p2 = window.document.getElementsByTagName('p')[1];
+        document.write('<br>' + p2.innerText); //innerText pega apenas o texto do paragrafo (sem a tag de negrito utilizada), caso queira pegar negrito e outras coisas utilizar innerHTML
+        window.alert(p2.innerHTML);*/
+
+        
+        //getElementById()
+        /*var msg = window.document.getElementById('msg');
+        alert(msg.innerHTML);
+        msg.style.background = 'yellow';
+        msg.innerHTML = 'Html alterado via DOM';*/
+
+        //getElementsByName()
+        /*var resultado = document.getElementsByName('resultado')[0];
+        resultado.innerHTML = 'GetElementsByName()';*/
+
+        //querySelector() ou querySelectorAll()
+        var d = window.document.querySelector('div#msg'); //Irá pegar a div que tenha o id msg
+        d.style.color = 'red'
+
+    </script>
+</body>
+</html>
